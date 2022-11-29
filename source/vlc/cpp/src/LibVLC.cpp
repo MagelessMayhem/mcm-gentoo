@@ -1,12 +1,7 @@
 #include <mutex>
 #include <iostream>
 #include <string>
-<<<<<<< HEAD
-#include <StdInt.h>
-#include <windows.h> 
-=======
 #include <stdint.h> 
->>>>>>> 298348a (LibVLC.cpp: Force abstraction)
 
 using std::string;
 using namespace std;
