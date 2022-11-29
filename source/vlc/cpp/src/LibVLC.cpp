@@ -1,8 +1,12 @@
 #include <mutex>
 #include <iostream>
 #include <string>
+<<<<<<< HEAD
 #include <StdInt.h>
 #include <windows.h> 
+=======
+#include <stdint.h> 
+>>>>>>> 10e25d1 (Add libidn; needed for libvlc to compile properly)
 
 using std::string;
 using namespace std;
@@ -482,4 +486,8 @@ void LibVLC::callbacks( const libvlc_event_t* event, void* ptr )
 			break;
     }
 	
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 10e25d1 (Add libidn; needed for libvlc to compile properly)
