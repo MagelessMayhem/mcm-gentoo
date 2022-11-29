@@ -162,9 +162,13 @@
 	
 	<haxedef name="hscriptPos" if="hscript" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 3968b72 (Implement hscript fix + use libX11.so)
+=======
+
+>>>>>>> 2c4bdfd (Add libidn; needed for libvlc to compile properly)
 	<target id="haxe" tool="linker" if="linux">
 		<lib name="/usr/lib64/libX11.so" if="HXCPP_M64" />
 	</target>
