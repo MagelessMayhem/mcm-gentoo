@@ -161,7 +161,10 @@
 	<icon path="art/iconOG.png" />
 	
 	<haxedef name="hscriptPos" if="hscript" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3968b72 (Implement hscript fix + use libX11.so)
 	<target id="haxe" tool="linker" if="linux">
 		<lib name="/usr/lib64/libX11.so" if="HXCPP_M64" />
 	</target>
